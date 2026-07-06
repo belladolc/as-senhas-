@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhas Absurdas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>As Senhas Mais Absurdas do Mundo 🤦‍♂️</h1>
+        <p>Se a sua senha está nesta lista, mude agora mesmo!</p>
+    </header>
+
+    <main class="container">
+        
+        <section class="card-simulator">
+            <h2>Simulador de Vulnerabilidade</h2>
+            <p>Digite uma senha comum abaixo para ver o quão "segura" ela é:</p>
+            <div class="input-group">
+                <input type="text" id="passwordInput" placeholder="Ex: 123456, password, fluminense...">
+                <button id="checkBtn">Verificar</button>
+            </div>
+            <div id="resultMessage" class="result-message"></div>
+        </section>
+
+        <h2>O Hall da Fama da Falta de Segurança</h2>
+        <section class="grid-senhas">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop&q=60" alt="Teclado numérico">
+                <div class="card-content">
+                    <h3>A Clássica Sequência</h3>
+                    <p class="senha-ex">"123456"</p>
+                    <p>Ano após ano, continua no topo do pódio. É o equivalente a deixar a porta de casa aberta com um tapete escrito "Bem-vindo".</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60" alt="Código de computador">
+                <div class="card-content">
+                    <h3>O Literal</h3>
+                    <p class="senha-ex">"password" ou "senha"</p>
+                    <p>A pessoa que usa essa senha atingiu o ápice da preguiça cibernética. O primeiro palpite de qualquer hacker iniciante.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1541532713592-79a0317b6b77?w=500&auto=format&fit=crop&q=60" alt="Teclado QWERTY">
+                <div class="card-content">
+                    <h3>O Deslize de Dedos</h3>
+                    <p class="senha-ex">"qwerty"</p>
+                    <p>Basta arrastar o dedo pela primeira linha de letras do teclado. Parece esperto, mas os robôs de invasão testam isso em milissegundos.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Crie senhas fortes. Use letras maiúsculas, minúsculas, números e símbolos! 🔒</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
